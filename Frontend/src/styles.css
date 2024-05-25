@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+
+    --dark-background: #273746;
+    --dark-background-card: #34495e;
+    --dark-background-card-hover: #2c3e50;
+
+    --light-background: #bdc3c7;
+    --light-background-card: #e6e6e6;
+  }

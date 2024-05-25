@@ -1,0 +1,35 @@
+.hero-section{
+    background-color: #041f37;
+    color: white;
+}
+
+.project-overview{
+    padding: 80px 0px;
+    background-color: var(--light-background);
+}
+
+.key-goals{
+    padding: 80px 0px;
+    background-color: var(--dark-background);
+    color: white;
+}
+.kg-card{
+    background-color: var(--dark-background-card);
+}
+.kg-card:hover{
+    background-color: var(--dark-background-card-hover); /* Dark Blueish */
+}
+
+.technology-stack{
+    background-color: var(--light-background);
+    padding: 80px 0px;
+}
+.ts-card{
+    background-color: var(--light-background-card);
+}
+
+.key-eatures{
+    padding: 80px 0px;
+    background-color: var(--dark-background);
+    color: white;
+}

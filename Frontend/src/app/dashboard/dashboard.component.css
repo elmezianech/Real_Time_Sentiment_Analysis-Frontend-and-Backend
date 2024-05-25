@@ -1,0 +1,30 @@
+:host ::ng-deep .positive{
+    background-color: lightgreen !important;
+}
+:host ::ng-deep .negative{
+    background-color: lightcoral !important;
+}
+:host ::ng-deep .neutral{
+    background-color: lightgray !important;
+}
+.small-chart {
+    max-width: 300px; /* Set your desired height */
+  }
+
+  .separated-table {
+    border-collapse: collapse; /* Ensure borders do not collapse */
+}
+
+.separated-table tr {
+    border-bottom: 1px solid #111; /* Add a bottom border to each row */
+}
+
+.separated-table th, .separated-table td {
+    padding: 8px; /* Add some padding to the cells */
+    text-align: left; /* Align text to the left */
+}
+
+.separated-table th {
+    background-color: #f2f2f2; /* Add a background color to the header */
+    border-bottom: 2px solid #ddd; /* Add a thicker border to the header */
+}

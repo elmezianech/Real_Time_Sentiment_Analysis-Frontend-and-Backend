@@ -1,0 +1,175 @@
+<section class="hero-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-12 d-flex flex-column justify-content-center">
+                <img src="../../assets/images/alexander-shatov-k1xf2D7jWUs-unsplash.jpg" 
+                    alt="twitter-image" style="max-height: 600px; width: 80%;">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="d-flex flex-column gap-3 h-100 justify-content-center">
+                    <h1 class="fs-1 fw-bold">Twitter Sentiment Analysis</h1>
+                    <p class="fs-5 lh-1">Analyse and predict the sentiment of tweets in Real time with AI and BIGDATA Technology, all with a dashboard to see exactly what goes around.</p>       
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="project-overview">
+    <!--Okey, the idea here will be to have an image in one -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <div class="h-100 d-flex flex-column justify-content-center gap-3">
+                    <h3 class="fs-2">Overview of the Project</h3>
+                    <p class="text-body-secondary fs-4">Welcome to our Twitter Sentiment Analysis project! Our goal is to harness the power of AI and Big Data technology to analyze and predict the sentiment of tweets in real-time. By leveraging advanced machine learning algorithms and Apache Kafka Streams, we aim to provide users with valuable insights into the ever-changing landscape of social media sentiment.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 d-flex flex-column align-items-center">
+                <img src="../../assets/images/bastian-riccardi-OSjydTo8R50-unsplash.jpg" 
+                alt="twitter-image" style="max-height: 600px; width: 80%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="key-goals">
+    <div class="container">
+        <h2 class="fs-2 fw-bold text-center mb-5">Project Key Goals</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="kg-card mx-auto border border-1 border-opacity-50 d-flex flex-column align-items-center gap-4 p-3 text-center" 
+                style="height: 200px; width: 80%;">
+                    <h3 class="fs-5">Real-time Sentiment Analysis</h3>
+                    <p class="fs-6">Our primary objective is to analyze tweets as they are posted on Twitter, enabling users to stay updated on the sentiment trends in real-time.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="kg-card mx-auto border border-1 border-opacity-50 d-flex flex-column align-items-center gap-4 p-3 text-center" 
+                style="height: 200px; width: 80%;">
+                    <h3 class="fs-5">Predictive Modeling</h3>
+                    <p class="fs-6">We aim to predict tweet sentiment accurately using models like Logistic Regression and XGBoost, discerning between positive, negative, neutral, or irrelevant sentiments.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="kg-card mx-auto border border-1 border-opacity-50 d-flex flex-column align-items-center gap-4 p-3 text-center" 
+                style="height: 200px; width: 80%;">
+                    <h3 class="fs-5">User-Friendly Dashboard</h3>
+                    <p class="fs-6">We're committed to providing an intuitive dashboard interface that allows users to visualize sentiment analysis results effortlessly.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="technology-stack">
+
+    <div class="container">
+        <h2 class="fs-2 fw-bold text-center mb-5">Technology Stack</h2>
+        <p-carousel 
+            [value]="techs" 
+            [numVisible]="3" 
+            [numScroll]="1" 
+            [circular]="true"
+            [responsiveOptions]="responsiveOptions">
+                <ng-template let-product pTemplate="item">
+                    <div class="ts-card mx-4 border border-1 border-opacity-75 d-flex flex-column 
+                        align-items-center justify-content-center gap-4 rounded rounded-2 py-3"
+                        style="height: 300px;">
+                        <img src="{{product.tech_image}}" alt="tech-image" class="m-0 rounded rounded-2" 
+                            style="width: 80%; height: 80%; object-fit:contain;">
+                        <h3 class="fs-5 fw-bold m-0">{{product.tech_name}}</h3>
+                    </div>
+                </ng-template>Z
+        </p-carousel>
+    </div>
+    
+    
+
+    <!--<div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        
+                    </div>
+                    <div class="col-4">
+                            
+                    </div>
+                    <div class="col-4">
+                            
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>-->
+      
+</section>
+
+<section class="key-eatures">
+    <div class="container">
+
+        <h2 class="fs-2 fw-bold text-center mb-5">Key Features</h2>
+        <div class="row g-3">
+            <div class="col-lg-3 col-12 col-md-6">
+                <div class="kg-card border border-1 p-4 d-flex flex-column align-items-center gap-2">
+                    <i class="fab fa-twitter fs-2"></i>
+                    <h3>Real-time Twitter Data Processing</h3>
+                    <p>We collect and process Twitter data streams using Apache Kafka Streams, ensuring up-to-the-minute analysis.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12 col-md-6">
+                <div class="kg-card border border-1 p-4 d-flex flex-column align-items-center gap-2">
+                    <i class="fas fa-brain fs-2"></i>
+                    <h3>Machine Learning Model Training</h3>
+                    <p>Our application trains supervised machine learning models on a vast dataset of tweets to accurately predict sentiment.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12 col-md-6">
+                <div class="kg-card border border-1 p-4 d-flex flex-column align-items-center gap-2">
+                    <i class="fas fa-broadcast-tower fs-2"></i>
+                    <h3>Live Sentiment Prediction</h3>
+                    <p>Users can witness sentiment predictions for newly posted tweets in real-time through our interactive dashboard.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12 col-md-6">
+                <div class="kg-card border border-1 p-4 d-flex flex-column align-items-center gap-2">
+                    <i class="fas fa-chart-pie fs-2"></i>
+                    <h3>Data Visualization</h3>
+                    <p>The dashboard presents sentiment analysis results in visually appealing charts and graphs for easy interpretation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
